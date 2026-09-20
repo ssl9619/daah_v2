@@ -1,11 +1,5 @@
 main:
-  - title: "Thing"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Schedule 26"
+    url: /schedule/
   - title: "About"
     url: /about/
-  - title: "Test"
-    url: /test/
