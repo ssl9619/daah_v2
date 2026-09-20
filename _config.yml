@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Saeed Lootah"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Don't really know whats going\non just happy to be here :)"
+  bio    : "Don't really know whats going on just happy to be here :)"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
