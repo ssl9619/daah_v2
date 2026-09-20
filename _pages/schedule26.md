@@ -2,6 +2,8 @@
 title: "Schedule S26"
 permalink: /schedule/
 author_profile: false
+layout: single
+classes: wide
 ---
 
 Making different LLM's (ChatGPT, Claude, Gemeni) generate from the same prompt then making some corrections to get an accurate response
