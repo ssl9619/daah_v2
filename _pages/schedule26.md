@@ -4,4 +4,8 @@ permalink: /schedule/
 author_profile: false
 ---
 
-# Test text
+# Assignment 1
+Making different LLM's generate from the same prompt then making some corrections to get an accurate response
+
+### The prompt:
+> slkdajalsk
