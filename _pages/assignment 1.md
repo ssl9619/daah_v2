@@ -3,7 +3,7 @@ title: "Assignment 1"
 permalink: /assignment1/
 author_profile: false
 layout: single
-classes: wide
+classes: wide centered
 ---
 ## Preface
 

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom overrides */
+
+// Add `centered` to a page's `classes` to drop the reserved sidebar column
+// and center the content instead of offsetting it to the right.
+.centered .sidebar {
+  display: none;
+}
+
+// Let long URLs (e.g. in references) wrap instead of overflowing on phones.
+.centered .page__content a {
+  overflow-wrap: anywhere;
+}
+
+.centered .page {
+  @include breakpoint($large) {
+    float: none;
+    width: 100%;
+    max-width: 1024px;
+    margin-inline: auto;
+    padding-inline: 0;
+  }
+}
