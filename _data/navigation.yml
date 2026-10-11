@@ -1,5 +1,7 @@
 main:
   - title: "Schedule 26"
     url: /schedule/
+  - title: "Test"
+    url: /test/
   - title: "About"
     url: /about/
