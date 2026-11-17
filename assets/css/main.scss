@@ -21,6 +21,28 @@ search: false
   overflow-wrap: anywhere;
 }
 
+// Embedded kepler.gl map (Assignment 2): full content width, fixed height.
+.kepler-embed {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  overflow: hidden;
+
+  @media (max-width: 600px) {
+    height: 420px;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
 .centered .page {
   @include breakpoint($large) {
     float: none;
